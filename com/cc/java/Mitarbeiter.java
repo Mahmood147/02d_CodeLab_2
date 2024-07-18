@@ -1,5 +1,6 @@
 
-public class Mitarbeiter {
+    public class Mitarbeiter{
+
     private String name;
     private String vorname;
     private String funktion;
@@ -12,6 +13,13 @@ public class Mitarbeiter {
         this.funktion = funktion;
         this.eintrittsjahr = eintrittsjahr;
     }
+
+    public void printInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Vorname: " + vorname);
+        System.out.println("Funktion: " + funktion);
+        System.out.println("Eintrittsjahr: " + eintrittsjahr);}
+
 
     // Methode, um Informationen abzurufen
     public String getInfo(String parameter) {
